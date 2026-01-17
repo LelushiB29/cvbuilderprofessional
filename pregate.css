@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container-heading{
+  text-align: center;
+  height: max-content;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.heading-te{
+  color:rgb(7, 7, 77);
+}
+.heading-text{
+  color: blue;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.project-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.pricing-box {
+  border: 2px solid #121b24;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+select {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
